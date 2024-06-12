@@ -28,12 +28,28 @@ switch (Number) {
 
 
 
+    let lu = ["levani","meko","giorgi","mamuka","gega"]
 
-    let saxelebi = ['goga', 'gaga', 'gega', 'luka', 'qeti']
-    saxelebi.push(0)
-    if (10<11) {
-        console.log(saxelebi [0])
+    lu.shift ()
+    lu.push ("levani")
+    
+    if (lu [4] == "levani") {
+        console.log ("levani")
+    } 
+    
+    else if (lu [4] == "meko") {
+        console.log ("meko")
     }
-     if(15>10){
-        console.log(saxelebi [4])
+    
+    else if (lu [4] == "giorgi") {
+        console.log ("giorgi")
+    }
+    
+    else if (lu [4] == "mamuka") {
+        console.log ("mamuka")
+    }
+    
+    
+    else {
+        console.log ("gega")
     }

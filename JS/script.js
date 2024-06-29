@@ -132,21 +132,57 @@
 //     console.log(i)
 // }
 
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 
-console.log("Even numbers:");
-for (let i = 0; i < numbers; i++) {
-    if (numbers[i] % 2 === 0) {
-        console.log(numbers[i]);
+// console.log("Even numbers:");
+// for (let i = 0; i < numbers; i++) {
+//     if (numbers[i] % 2 === 0) {
+//         console.log(numbers[i]);
+//     }
+// }
+
+
+// let sum = 0;
+// for (let i = 0; i < numbers; i++) {
+//     sum += numbers[i];
+// }
+
+// console.log("Sum of all numbers:", sum);
+
+
+// function saxeli(name) {
+//     console.log("hello" + name)
+// }
+// saxeli("nika")
+
+// function checkNumber() {
+    
+//  checkNumber(){
+//     if (ritkvi > 10){
+//         console.log("num is greater than 10")
+//     }else{
+//         console.log("num is 10 or less")
+//     }    
+// }
+// }\
+
+
+// function check(number) {
+//     if (number>10) {
+//         console.log( "at ze naklebia")
+//     }else{
+//         console.log( "atze metia")
+//     }
+// }
+
+function checknumbers(num){
+    if(num>10){
+        console.log("num metia 10ze")
     }
-}
-
-
-let sum = 0;
-for (let i = 0; i < numbers; i++) {
-    sum += numbers[i];
-}
-
-console.log("Sum of all numbers:", sum);
-
+    else{
+        console.log("10ze naklebia")
+    }
+        
+    }
+    checknumbers(11)

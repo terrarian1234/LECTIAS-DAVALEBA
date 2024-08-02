@@ -176,13 +176,17 @@
 //     }
 // }
 
-function checknumbers(num){
-    if(num>10){
-        console.log("num metia 10ze")
-    }
-    else{
-        console.log("10ze naklebia")
-    }
+// function checknumbers(num){
+//     if(num>10){
+//         console.log("num metia 10ze")
+//     }
+//     else{
+//         console.log("10ze naklebia")
+//     }
         
-    }
-    checknumbers(11)
+//     }
+//     checknumbers(11)
+
+const username = "luka"
+const welcomeMSG = document.getElementById("welcomeMSG");
+welcomeMSG.textContent += username === "" ? "guest" : username
